@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <style>
+    @font-face {
+      font-family: intervariable;
+      src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+    }
+
+    * {
+      font-family: intervariable;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container h-100 mb-5">
+    <!-- Navbar starts -->
+    <nav class="navbar navbar-expand-lg mb-5">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img src="./assets/images/logo.svg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="ms-auto navbar-nav">
+            <li class="navbar-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="navbar-item"><a href="#" class="nav-link">New</a></li>
+            <li class="navbar-item"><a href="#" class="nav-link">Popular</a></li>
+            <li class="navbar-item"><a href="#" class="nav-link">Trending</a></li>
+            <li class="navbar-item"><a href="#" class="nav-link">Categories</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+
+    <div class="row">
+      <!-- Left Image -->
+      <div class="col-md-8 col-12">
+        <picture>
+
+          <source srcset="./assets/images/image-web-3-desktop.jpg" media="(min-width : 554px)">
+          <source srcset="./assets/images/image-web-3-mobile.jpg" media="(max-width : 553px)">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop" class="img-fluid">
+        </picture>
+        <div class="d-md-flex mt-3 align-items-start">
+
+          <h1 class="fw-bold me-3" style="font-size : 52px; line-height: 1.4ch;">The Bright Future of Web 3.0?</h1>
+
+
+          <div>
+            <p class="p-md-5 pb-md-3 pt-1 pt-md-0 text-secondary" style="font-size: 15px;">We dive into the next
+              evolution of
+              the
+              web
+              that claims to put
+              the
+              power of the
+              platforms
+              back
+              into the
+              hands
+              of the people. But is it really fulfilling its promise?<br>
+              <button class="btn btn-dark mt-3 text-uppercase fw-bold py-3 px-5 fs-6 mt-5 border-0 rounded-0"
+                style="background-color: hsl(5, 85%, 63%) ;letter-spacing : 4px;">
+                Read More
+              </button>
+            </p>
+          </div>
+
+        </div>
+        <!-- Left Image Ends -->
+
+        <!-- Right section starts -->
+
+      </div>
+
+      <!-- Right Section -->
+
+      <div class="col-md-4 col-12" style="background-color: #00001a;">
+        <h1 class="text-warning my-4 fw-bold">New</h1>
+        <div class="row">
+          <p class="text-white fs-4 fw-bold">Hydrogen VS Electric Cars</p>
+          <p class="text-secondary fs-6">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr class="text-white">
+        <div class="row">
+          <p class="text-white fs-4 fw-bold">The Downside of AI Artistry</p>
+          <p class="text-secondary fs-6">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <hr class="text-white">
+        <div class="row mb-5">
+          <p class="text-white fs-4 fw-bold">Is VC Funding Drying Up?</p>
+          <p class="text-secondary fs-6">Private funding by VC firms is down 50% YOY. We take a look at what that
+            means.
+          </p>
+        </div>
+
+        <!-- Right section ends -->
+      </div>
+
+
+
+    </div>
+
+
+    <section class="row mt-5">
+      <div class="col-md-4 d-flex gap-md-4">
+        <div class="left-image">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" class="img-fluid">
+        </div>
+        <div class="right-info">
+          <h2 class="text-secondary-emphasis fw-bold">01</h2>
+          <h5>Reviving Retro PCs</h5>
+          <p class="text-muted">What happens when old PCs are given modern upgrades</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex gap-md-4">
+        <div class="left-image">
+          <img src="./assets/images/image-top-laptops.jpg" alt="image-top-laptops" class="img-fluid">
+        </div>
+        <div class="right-info">
+          <h2 class="text-secondary-emphasis fw-bold">02</h2>
+          <h5>Reviving Retro PCs</h5>
+          <p class="text-muted">What happens when old PCs are given modern upgrades</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex gap-md-4">
+        <div class="left-image">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="image-gaming-growth" class="img-fluid">
+        </div>
+        <div class="right-info">
+          <h2 class="text-secondary-emphasis fw-bold">03</h2>
+          <h5>Reviving Retro PCs</h5>
+          <p class="text-muted">What happens when old PCs are given modern upgrades</p>
+        </div>
+      </div>
+
+    </section>
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
